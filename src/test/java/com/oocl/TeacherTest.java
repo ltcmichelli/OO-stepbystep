@@ -3,7 +3,6 @@ package com.oocl;
 import org.junit.Assert;
 import org.junit.Test;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 
 public class TeacherTest {
@@ -36,5 +35,17 @@ public class TeacherTest {
         teacherWoody.assignKlass(extraKlass);
 
         Assert.assertEquals(5, teacherWoody.getKlassList().size());
+    }
+
+    @Test
+    public void testWelcomeMsgOfNewJoiner_ForQ8(){
+        Klass klass2 = new Klass(2);
+        Teacher teacherWoody = new Teacher("Woody", 30);
+        Student studentTom = new Student("Tom", 18);
+        studentTom.setKlassForStudent(klass2);
+
+        String expect = "My name is Woody. I am 30 years old. Teaching for the future of world. Welcome Tom join Class 2.";
+
+        Assert.assertEquals(expect, teacherWoody.getWelcomeMsg(studentTom));
     }
 }

@@ -23,4 +23,8 @@ public class Student extends Person {
     public String introduceWithClass(){
         return String.format("My name is %s. I am %d years old. I am a student of class %d. Coding for the glory of OOCL.", this.getName(), this.getAge(), this.getKlassForStudent().getKlassNum());
     }
+
+    public String getWelcomeMsg(){
+        return String.format(" Welcome %s join Class %d.", this.getName(), this.getKlassForStudent().getKlassNum());
+    }
 }

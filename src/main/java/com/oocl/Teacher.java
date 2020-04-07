@@ -28,4 +28,8 @@ public class Teacher extends Person {
             this.klassListForTeacher.add(klass);
         }
     }
+
+    public String getWelcomeMsg(Student student){
+        return introduce() + student.getWelcomeMsg();
+    }
 }
