@@ -27,4 +27,8 @@ public class Student extends Person {
     public String getWelcomeMsg(){
         return String.format(" Welcome %s join Class %d.", this.getName(), this.getKlassForStudent().getKlassNum());
     }
+
+    public String getClassLeaderMsg(){
+        return String.format(" %s is the leader of Class %d.", this.getName(), this.getKlassForStudent().getKlassNum());
+    }
 }

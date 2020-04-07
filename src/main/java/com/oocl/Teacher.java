@@ -29,7 +29,7 @@ public class Teacher extends Person {
         }
     }
 
-    public String getWelcomeMsg(Student student){
-        return introduce() + student.getWelcomeMsg();
+    public String getWelcomeMsg(String msg){
+        return introduce() + msg;
     }
 }
