@@ -6,7 +6,7 @@ import org.junit.Test;
 public class PersonTest {
 
     @Test
-    public void testIntroduceForQ1(){
+    public void testIntroduceOfPerson_shouldReturnIntroduceMsg_ForQ1(){
         Person personTom = new Person();
         personTom.setName("Tom");
         personTom.setAge(21);

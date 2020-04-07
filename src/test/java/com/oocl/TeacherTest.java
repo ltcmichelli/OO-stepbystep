@@ -3,12 +3,11 @@ package com.oocl;
 import org.junit.Assert;
 import org.junit.Test;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 
 public class TeacherTest {
     @Test
-    public void testIntroduceForQ3(){
+    public void testIntroduceofTeacher_shouldReturnIntroduceMsg_ForQ3(){
         Teacher teacherWoody = new Teacher();
         teacherWoody.setName("Woody");
         teacherWoody.setAge(30);
@@ -18,7 +17,7 @@ public class TeacherTest {
     }
 
     @Test
-    public void testSetKlassList_givenTeacherTakeLessThanFiveClass_ForQ7(){
+    public void testAssignKlass_givenTeacherTakeLessThanFiveClass_ForQ7(){
         Teacher teacherWoody = new Teacher();
         teacherWoody.setName("Woody");
         teacherWoody.setAge(30);
@@ -29,7 +28,7 @@ public class TeacherTest {
     }
 
     @Test
-    public void testSetKlassList_givenTeacherTakeMoreThanFiveClass_ForQ7(){
+    public void testAssignKlass_givenTeacherTakeMoreThanFiveClass_ForQ7(){
         Teacher teacherWoody = new Teacher();
         teacherWoody.setName("Woody");
         teacherWoody.setAge(30);

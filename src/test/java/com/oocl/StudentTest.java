@@ -5,7 +5,7 @@ import org.junit.Test;
 
 public class StudentTest {
     @Test
-    public void testIntroduceForQ2(){
+    public void testIntroduceOfStudent_shouldReturnIntroduceMsg_ForQ2(){
         Student studentTom = new Student();
         studentTom.setName("Tom");
         studentTom.setAge(18);
@@ -16,7 +16,7 @@ public class StudentTest {
     }
 
     @Test
-    public void testIntroduceForQ4(){
+    public void testIntroduceOfStudentWithClass_shouldReturnIntroduceMsg_ForQ4(){
         Student studentTom = new Student();
         studentTom.setName("Tom");
         studentTom.setAge(18);

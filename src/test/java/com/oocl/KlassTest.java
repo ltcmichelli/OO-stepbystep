@@ -24,7 +24,7 @@ public class KlassTest {
     }
 
     @Test
-    public void testNumOfClassLeader_givenStudentInThatClass_ForQ6(){
+    public void testAssignKlassLeader_givenStudentInThatClass_ForQ6(){
         Student studentA = new Student();
         studentA.setName("A");
 
