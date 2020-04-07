@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b4742a56-6591-459c-9f2b-d49e5506aef9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/OO-stepbystep" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aCZZNznAEchDLBdBGzjIGK7Fln" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager" selected="JUnit.TeacherTest.testIntroduce">
+    <configuration name="PersonTest.testIntroduce" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oo-stepbystep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.oocl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.oocl" />
+      <option name="MAIN_CLASS_NAME" value="com.oocl.PersonTest" />
+      <option name="METHOD_NAME" value="testIntroduce" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentTest.testIntroduce" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oo-stepbystep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.oocl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.oocl" />
+      <option name="MAIN_CLASS_NAME" value="com.oocl.StudentTest" />
+      <option name="METHOD_NAME" value="testIntroduce" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TeacherTest.testIntroduce" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oo-stepbystep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.oocl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.oocl" />
+      <option name="MAIN_CLASS_NAME" value="com.oocl.TeacherTest" />
+      <option name="METHOD_NAME" value="testIntroduce" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TeacherTest.testIntroduce" />
+        <item itemvalue="JUnit.StudentTest.testIntroduce" />
+        <item itemvalue="JUnit.PersonTest.testIntroduce" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b4742a56-6591-459c-9f2b-d49e5506aef9" name="Default Changelist" comment="" />
+      <created>1586241590608</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586241590608</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="342" y="174" key="#Project_Structure" timestamp="1586242456311">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="342" y="174" key="#Project_Structure/0.0.1504.963@0.0.1504.963" timestamp="1586242456311" />
+    <state x="555" y="267" key="#com.intellij.ide.util.MemberChooser" timestamp="1586241993110">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="555" y="267" key="#com.intellij.ide.util.MemberChooser/0.0.1504.963@0.0.1504.963" timestamp="1586241993110" />
+    <state width="1451" height="223" key="GridCell.Tab.0.bottom" timestamp="1586243268338">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1451" height="223" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1586243268338" />
+    <state width="1451" height="223" key="GridCell.Tab.0.center" timestamp="1586243268338">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1451" height="223" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1586243268338" />
+    <state width="1451" height="223" key="GridCell.Tab.0.left" timestamp="1586243268337">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1451" height="223" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1586243268337" />
+    <state width="1451" height="223" key="GridCell.Tab.0.right" timestamp="1586243268338">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1451" height="223" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1586243268338" />
+    <state x="521" y="269" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586241850470">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="521" y="269" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1504.963@0.0.1504.963" timestamp="1586241850470" />
+    <state x="412" y="283" width="672" height="678" key="search.everywhere.popup" timestamp="1586242313968">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="412" y="283" width="672" height="678" key="search.everywhere.popup/0.0.1504.963@0.0.1504.963" timestamp="1586242313968" />
+  </component>
+</project>
