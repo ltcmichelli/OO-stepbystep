@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4742a56-6591-459c-9f2b-d49e5506aef9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/oocl/KlassTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/oocl/Klass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oocl/Klass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oocl/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oocl/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/oocl/TeacherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/oocl/TeacherTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/oocl/Klass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/oocl/Klass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/oocl/Teacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/oocl/Teacher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/oocl/TeacherTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/oocl/TeacherTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +47,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="JUnit.KlassTest">
+  <component name="RunManager" selected="JUnit.TeacherTest.testSetKlassList_givenTeacherTakeMoreThanFiveClass_ForQ7">
     <configuration name="KlassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oo-stepbystep" />
       <extension name="coverage">
@@ -92,7 +95,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentTest.testIntroduceForQ4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TeacherTest.testSetKlassList_givenTeacherTakeLessThanFiveClass_ForQ7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oo-stepbystep" />
       <extension name="coverage">
         <pattern>
@@ -101,14 +104,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.oocl" />
-      <option name="MAIN_CLASS_NAME" value="com.oocl.StudentTest" />
-      <option name="METHOD_NAME" value="testIntroduceForQ4" />
+      <option name="MAIN_CLASS_NAME" value="com.oocl.TeacherTest" />
+      <option name="METHOD_NAME" value="testSetKlassList_givenTeacherTakeLessThanFiveClass_ForQ7" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentTest.testIntroduceForQ5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TeacherTest.testSetKlassList_givenTeacherTakeMoreThanFiveClass_ForQ7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oo-stepbystep" />
       <extension name="coverage">
         <pattern>
@@ -117,8 +120,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.oocl" />
-      <option name="MAIN_CLASS_NAME" value="com.oocl.StudentTest" />
-      <option name="METHOD_NAME" value="testIntroduceForQ5" />
+      <option name="MAIN_CLASS_NAME" value="com.oocl.TeacherTest" />
+      <option name="METHOD_NAME" value="testSetKlassList_givenTeacherTakeMoreThanFiveClass_ForQ7" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -126,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TeacherTest.testSetKlassList_givenTeacherTakeMoreThanFiveClass_ForQ7" />
+        <item itemvalue="JUnit.TeacherTest.testSetKlassList_givenTeacherTakeLessThanFiveClass_ForQ7" />
         <item itemvalue="JUnit.KlassTest" />
         <item itemvalue="JUnit.KlassTest.testNumOfClassLeader_givenStudentNotInThatClass_ForQ6" />
         <item itemvalue="JUnit.KlassTest.testNumOfClassLeader_ForQ6" />
-        <item itemvalue="JUnit.StudentTest.testIntroduceForQ5" />
-        <item itemvalue="JUnit.StudentTest.testIntroduceForQ4" />
       </list>
     </recent_temporary>
   </component>
@@ -163,10 +166,10 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="342" y="174" key="#Project_Structure/0.0.1504.963@0.0.1504.963" timestamp="1586242456311" />
-    <state x="555" y="267" key="#com.intellij.ide.util.MemberChooser" timestamp="1586246690679">
+    <state x="555" y="267" key="#com.intellij.ide.util.MemberChooser" timestamp="1586247790375">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state x="555" y="267" key="#com.intellij.ide.util.MemberChooser/0.0.1504.963@0.0.1504.963" timestamp="1586246690679" />
+    <state x="555" y="267" key="#com.intellij.ide.util.MemberChooser/0.0.1504.963@0.0.1504.963" timestamp="1586247790375" />
     <state x="736" y="410" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1586244372846">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
@@ -175,22 +178,38 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="203" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1504.963@0.0.1504.963" timestamp="1586244944361" />
-    <state width="894" height="290" key="GridCell.Tab.0.bottom" timestamp="1586247324901">
+    <state width="1117" height="316" key="GridCell.Tab.0.bottom" timestamp="1586249942327">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="894" height="290" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1586247324901" />
-    <state width="894" height="290" key="GridCell.Tab.0.center" timestamp="1586247324901">
+    <state width="1117" height="316" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1586249942327" />
+    <state width="1117" height="316" key="GridCell.Tab.0.center" timestamp="1586249942327">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="894" height="290" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1586247324901" />
-    <state width="894" height="290" key="GridCell.Tab.0.left" timestamp="1586247324901">
+    <state width="1117" height="316" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1586249942327" />
+    <state width="1117" height="316" key="GridCell.Tab.0.left" timestamp="1586249942327">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="894" height="290" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1586247324901" />
-    <state width="894" height="290" key="GridCell.Tab.0.right" timestamp="1586247324901">
+    <state width="1117" height="316" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1586249942327" />
+    <state width="1117" height="316" key="GridCell.Tab.0.right" timestamp="1586249942327">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="894" height="290" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1586247324901" />
+    <state width="1117" height="316" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1586249942327" />
+    <state width="1117" height="316" key="GridCell.Tab.1.bottom" timestamp="1586249943046">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1117" height="316" key="GridCell.Tab.1.bottom/0.0.1504.963@0.0.1504.963" timestamp="1586249943046" />
+    <state width="1117" height="316" key="GridCell.Tab.1.center" timestamp="1586249943046">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1117" height="316" key="GridCell.Tab.1.center/0.0.1504.963@0.0.1504.963" timestamp="1586249943046" />
+    <state width="1117" height="316" key="GridCell.Tab.1.left" timestamp="1586249943046">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1117" height="316" key="GridCell.Tab.1.left/0.0.1504.963@0.0.1504.963" timestamp="1586249943046" />
+    <state width="1117" height="316" key="GridCell.Tab.1.right" timestamp="1586249943046">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1117" height="316" key="GridCell.Tab.1.right/0.0.1504.963@0.0.1504.963" timestamp="1586249943046" />
     <state x="521" y="269" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586241850470">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
@@ -199,5 +218,21 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="412" y="283" width="672" height="678" key="search.everywhere.popup/0.0.1504.963@0.0.1504.963" timestamp="1586242313968" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/oocl/Teacher.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/oocl/Teacher.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

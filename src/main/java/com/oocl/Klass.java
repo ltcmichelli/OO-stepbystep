@@ -9,6 +9,7 @@ public class Klass {
     public List<Student> studentList = new ArrayList<Student>();
 
     public Student klassLeader;
+    public Teacher klassTeacher;
 
     public Klass(int klassNum) {
         this.klassNum = klassNum;
@@ -43,5 +44,13 @@ public class Klass {
             this.klassLeader = klassLeader;
         }
         return;
+    }
+
+    public Teacher getKlassTeacher() {
+        return klassTeacher;
+    }
+
+    public void setKlassTeacher(Teacher klassTeacher) {
+        this.klassTeacher = klassTeacher;
     }
 }
