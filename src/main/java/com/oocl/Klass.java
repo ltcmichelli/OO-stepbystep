@@ -8,6 +8,8 @@ public class Klass {
     public int klassNum;
     public List<Student> studentList = new ArrayList<Student>();
 
+    public Student klassLeader;
+
     public Klass(int klassNum) {
         this.klassNum = klassNum;
     }
@@ -30,5 +32,16 @@ public class Klass {
 
     public void assignStudentToKlass(Student student){
         studentList.add(student);
+    }
+
+    public Student getKlassLeader() {
+        return klassLeader;
+    }
+
+    public void setKlassLeader(Student klassLeader) {
+        if (klassLeader.getKlassForStudent().getKlassNum() == klassNum){
+            this.klassLeader = klassLeader;
+        }
+        return;
     }
 }
