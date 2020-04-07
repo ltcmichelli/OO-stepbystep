@@ -3,9 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="b4742a56-6591-459c-9f2b-d49e5506aef9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/oocl/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oocl/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/oocl/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oocl/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oocl/Klass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oocl/Klass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/oocl/KlassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/oocl/KlassTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/oocl/TeacherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/oocl/TeacherTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/oocl/Klass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/oocl/Klass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/oocl/KlassTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/oocl/KlassTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/oocl/TeacherTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/oocl/TeacherTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +47,15 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="JUnit.TeacherTest.testWelcomeMsgOfNewJoiner_ForQ8">
+  <component name="RunManager" selected="JUnit.All in oo-stepbystep">
+    <configuration name="All in oo-stepbystep" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oo-stepbystep" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="KlassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oo-stepbystep" />
       <extension name="coverage">
@@ -60,7 +71,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KlassTest.testNumOfClassLeader_givenStudentNotInThatClass_ForQ6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KlassTest.testNumOfClassLeader_givenStudentInThatClass_ForQ6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oo-stepbystep" />
       <extension name="coverage">
         <pattern>
@@ -70,23 +81,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.oocl" />
       <option name="MAIN_CLASS_NAME" value="com.oocl.KlassTest" />
-      <option name="METHOD_NAME" value="testNumOfClassLeader_givenStudentNotInThatClass_ForQ6" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TeacherTest.testSetKlassList_givenTeacherTakeLessThanFiveClass_ForQ7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="oo-stepbystep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.oocl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.oocl" />
-      <option name="MAIN_CLASS_NAME" value="com.oocl.TeacherTest" />
-      <option name="METHOD_NAME" value="testSetKlassList_givenTeacherTakeLessThanFiveClass_ForQ7" />
+      <option name="METHOD_NAME" value="testNumOfClassLeader_givenStudentInThatClass_ForQ6" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -126,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in oo-stepbystep" />
+        <item itemvalue="JUnit.KlassTest" />
+        <item itemvalue="JUnit.KlassTest.testNumOfClassLeader_givenStudentInThatClass_ForQ6" />
         <item itemvalue="JUnit.TeacherTest.testWelcomeMsgOfNewJoiner_ForQ8" />
         <item itemvalue="JUnit.TeacherTest.testSetKlassList_givenTeacherTakeMoreThanFiveClass_ForQ7" />
-        <item itemvalue="JUnit.TeacherTest.testSetKlassList_givenTeacherTakeLessThanFiveClass_ForQ7" />
-        <item itemvalue="JUnit.KlassTest" />
-        <item itemvalue="JUnit.KlassTest.testNumOfClassLeader_givenStudentNotInThatClass_ForQ6" />
       </list>
     </recent_temporary>
   </component>
@@ -163,10 +158,10 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="342" y="174" key="#Project_Structure/0.0.1504.963@0.0.1504.963" timestamp="1586242456311" />
-    <state x="555" y="267" key="#com.intellij.ide.util.MemberChooser" timestamp="1586247790375">
+    <state x="555" y="267" key="#com.intellij.ide.util.MemberChooser" timestamp="1586258988256">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state x="555" y="267" key="#com.intellij.ide.util.MemberChooser/0.0.1504.963@0.0.1504.963" timestamp="1586247790375" />
+    <state x="555" y="267" key="#com.intellij.ide.util.MemberChooser/0.0.1504.963@0.0.1504.963" timestamp="1586258988256" />
     <state x="736" y="410" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1586244372846">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
@@ -175,22 +170,22 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="203" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1504.963@0.0.1504.963" timestamp="1586244944361" />
-    <state width="1117" height="290" key="GridCell.Tab.0.bottom" timestamp="1586250094193">
+    <state width="1461" height="261" key="GridCell.Tab.0.bottom" timestamp="1586259212791">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1117" height="290" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1586250094193" />
-    <state width="1117" height="290" key="GridCell.Tab.0.center" timestamp="1586250094192">
+    <state width="1461" height="261" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1586259212791" />
+    <state width="1461" height="261" key="GridCell.Tab.0.center" timestamp="1586259212791">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1117" height="290" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1586250094192" />
-    <state width="1117" height="290" key="GridCell.Tab.0.left" timestamp="1586250094192">
+    <state width="1461" height="261" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1586259212791" />
+    <state width="1461" height="261" key="GridCell.Tab.0.left" timestamp="1586259212791">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1117" height="290" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1586250094192" />
-    <state width="1117" height="290" key="GridCell.Tab.0.right" timestamp="1586250094192">
+    <state width="1461" height="261" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1586259212791" />
+    <state width="1461" height="261" key="GridCell.Tab.0.right" timestamp="1586259212791">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1117" height="290" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1586250094192" />
+    <state width="1461" height="261" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1586259212791" />
     <state width="1117" height="316" key="GridCell.Tab.1.bottom" timestamp="1586250026752">
       <screen x="0" y="0" width="1504" height="963" />
     </state>

@@ -40,10 +40,13 @@ public class Klass {
     }
 
     public void setKlassLeader(Student klassLeader) {
+        this.klassLeader = klassLeader;
+    }
+
+    public void assignKlassLeader(Student klassLeader) {
         if (klassLeader.getKlassForStudent().getKlassNum() == klassNum){
-            this.klassLeader = klassLeader;
+            setKlassLeader(klassLeader);
         }
-        return;
     }
 
     public Teacher getKlassTeacher() {

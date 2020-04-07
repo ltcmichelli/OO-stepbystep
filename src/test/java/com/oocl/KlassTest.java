@@ -11,7 +11,7 @@ public class KlassTest {
         Klass klass2 = new Klass(2);
         studentA.setKlassForStudent(klass2);
 
-        klass2.setKlassLeader(studentA);
+        klass2.assignKlassLeader(studentA);
 
         Assert.assertEquals("A", klass2.getKlassLeader().getName());
     }
