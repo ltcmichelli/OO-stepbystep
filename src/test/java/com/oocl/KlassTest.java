@@ -78,7 +78,7 @@ public class KlassTest {
     }
 
     @Test
-    public void testWelcomeFromExistingStudentsInClass_ForQ10(){
+    public void testWelcomeNewJoinerFromExistingStudentsInClass_ForQ10(){
         Klass klass2 = new Klass(2);
         Student studentTom = new Student();
         studentTom.setName("Tom");
@@ -92,6 +92,24 @@ public class KlassTest {
         klass2.assignStudentToKlass(studentJim);
 
         String expect = "My name is Tom. I am 18 years old. I am a student of class 2. Coding for the glory of OOCL. Welcome Jim join Class 2.";
+        Assert.assertEquals(expect, studentJim.getWelcomeMsg());
+    }
+
+    @Test
+    public void testWelcomeClassLeaderFromExistingStudentsInClass_ForQ11(){
+        Klass klass2 = new Klass(2);
+        Student studentTom = new Student();
+        studentTom.setName("Tom");
+        studentTom.setAge(18);
+        studentTom.setKlassForStudent(klass2);
+        klass2.assignStudentToKlass(studentTom);
+
+        Student studentJim = new Student();
+        studentJim.setName("Jim");
+        studentJim.setKlassForStudent(klass2);
+        klass2.assignKlassLeader(studentJim);
+
+        String expect = "My name is Tom. I am 18 years old. I am a student of class 2. Coding for the glory of OOCL. Jim is the leader of Class 2.";
         Assert.assertEquals(expect, studentJim.getWelcomeMsg());
     }
 }

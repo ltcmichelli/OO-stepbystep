@@ -54,6 +54,9 @@ public class Klass {
             if (klassTeacher != null){
                 klassTeacher.setWelcomeMsg(klassLeader.getClassLeaderMsg());
             }
+            if (!studentList.isEmpty()){
+                studentList.stream().forEach(studentInClass -> klassLeader.setWelcomeMsg(studentInClass.welcome(klassLeader.getClassLeaderMsg())));
+            }
         }
     }
 
