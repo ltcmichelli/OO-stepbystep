@@ -5,6 +5,7 @@ import java.util.List;
 
 public class Teacher extends Person {
     public List<Klass> klassListForTeacher = new ArrayList<Klass>();
+    public String welcomeMsg;
 
     public Teacher() {
         super();
@@ -29,7 +30,11 @@ public class Teacher extends Person {
         }
     }
 
-    public String getWelcomeMsg(String msg){
-        return introduce() + msg;
+    public String getWelcomeMsg(){
+        return welcomeMsg;
+    }
+
+    public void setWelcomeMsg(String msg){
+        this.welcomeMsg = introduce() + msg;
     }
 }

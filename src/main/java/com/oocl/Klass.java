@@ -33,6 +33,7 @@ public class Klass {
 
     public void assignStudentToKlass(Student student){
         studentList.add(student);
+        klassTeacher.setWelcomeMsg(student.getWelcomeMsg());
     }
 
     public Student getKlassLeader() {
@@ -46,6 +47,7 @@ public class Klass {
     public void assignKlassLeader(Student klassLeader) {
         if (klassLeader.getKlassForStudent().getKlassNum() == klassNum){
             setKlassLeader(klassLeader);
+            klassTeacher.setWelcomeMsg(klassLeader.getClassLeaderMsg());
         }
     }
 

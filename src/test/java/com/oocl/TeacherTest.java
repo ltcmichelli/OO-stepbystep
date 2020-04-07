@@ -43,40 +43,4 @@ public class TeacherTest {
 
         Assert.assertEquals(5, teacherWoody.getKlassList().size());
     }
-
-    @Test
-    public void testWelcomeMsgOfNewJoiner_ForQ8(){
-        Klass klass2 = new Klass(2);
-        Teacher teacherWoody = new Teacher();
-        teacherWoody.setName("Woody");
-        teacherWoody.setAge(30);
-        teacherWoody.assignKlass(klass2);
-
-        Student studentTom = new Student();
-        studentTom.setName("Tom");
-        studentTom.setKlassForStudent(klass2);
-
-        String expect = "My name is Woody. I am 30 years old. Teaching for the future of world. Welcome Tom join Class 2.";
-
-        Assert.assertEquals(expect, teacherWoody.getWelcomeMsg(studentTom.getWelcomeMsg()));
-    }
-
-    @Test
-    public void testWelcomeMsgOfClassLeader_ForQ9(){
-        Klass klass2 = new Klass(2);
-        Teacher teacherWoody = new Teacher();
-        teacherWoody.setName("Woody");
-        teacherWoody.setAge(30);
-        teacherWoody.assignKlass(klass2);
-
-        Student studentTom = new Student();
-        studentTom.setName("Tom");
-        studentTom.setKlassForStudent(klass2);
-
-        klass2.setKlassLeader(studentTom);
-
-        String expect = "My name is Woody. I am 30 years old. Teaching for the future of world. Tom is the leader of Class 2.";
-
-        Assert.assertEquals(expect, teacherWoody.getWelcomeMsg(studentTom.getClassLeaderMsg()));
-    }
 }
