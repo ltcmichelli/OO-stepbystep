@@ -6,8 +6,8 @@ import java.util.List;
 public class Teacher extends Person {
     public List<Klass> klassListForTeacher = new ArrayList<Klass>();
 
-    public Teacher(String name, int age) {
-        super(name, age);
+    public Teacher() {
+        super();
     }
 
     @Override

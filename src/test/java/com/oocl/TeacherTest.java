@@ -9,7 +9,9 @@ import java.util.Arrays;
 public class TeacherTest {
     @Test
     public void testIntroduceForQ3(){
-        Teacher teacherWoody = new Teacher("Woody", 30);
+        Teacher teacherWoody = new Teacher();
+        teacherWoody.setName("Woody");
+        teacherWoody.setAge(30);
         String expect = "My name is Woody. I am 30 years old. Teaching for the future of world.";
 
         Assert.assertEquals(expect, teacherWoody.introduce());
@@ -17,7 +19,9 @@ public class TeacherTest {
 
     @Test
     public void testSetKlassList_givenTeacherTakeLessThanFiveClass_ForQ7(){
-        Teacher teacherWoody = new Teacher("Woody", 30);
+        Teacher teacherWoody = new Teacher();
+        teacherWoody.setName("Woody");
+        teacherWoody.setAge(30);
         Klass klassForWoody = new Klass(2);
         teacherWoody.assignKlass(klassForWoody);
 
@@ -26,7 +30,9 @@ public class TeacherTest {
 
     @Test
     public void testSetKlassList_givenTeacherTakeMoreThanFiveClass_ForQ7(){
-        Teacher teacherWoody = new Teacher("Woody", 30);
+        Teacher teacherWoody = new Teacher();
+        teacherWoody.setName("Woody");
+        teacherWoody.setAge(30);
         Klass extraKlass = new Klass(6);
         teacherWoody.setKlassList(Arrays.asList(new Klass(1),
                 new Klass(2),
@@ -41,8 +47,11 @@ public class TeacherTest {
     @Test
     public void testWelcomeMsgOfNewJoiner_ForQ8(){
         Klass klass2 = new Klass(2);
-        Teacher teacherWoody = new Teacher("Woody", 30);
-        Student studentTom = new Student("Tom", 18);
+        Teacher teacherWoody = new Teacher();
+        teacherWoody.setName("Woody");
+        teacherWoody.setAge(30);
+        Student studentTom = new Student();
+        studentTom.setName("Tom");
         studentTom.setKlassForStudent(klass2);
 
         String expect = "My name is Woody. I am 30 years old. Teaching for the future of world. Welcome Tom join Class 2.";

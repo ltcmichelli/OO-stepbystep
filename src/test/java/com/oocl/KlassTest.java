@@ -7,7 +7,8 @@ public class KlassTest {
 
     @Test
     public void testNumOfClassLeader_givenStudentInThatClass_ForQ6(){
-        Student studentA = new Student("A", 18);
+        Student studentA = new Student();
+        studentA.setName("A");
         Klass klass2 = new Klass(2);
         studentA.setKlassForStudent(klass2);
 

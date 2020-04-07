@@ -3,8 +3,8 @@ package com.oocl;
 public class Student extends Person {
     public Klass klassForStudent;
 
-    public Student(String name, int age) {
-        super(name, age);
+    public Student() {
+        super();
     }
 
     public Klass getKlassForStudent() {
