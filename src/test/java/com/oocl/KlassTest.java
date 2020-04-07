@@ -3,7 +3,25 @@ package com.oocl;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class KlassTest {
+
+    @Test
+    public void testAssignStudentToKlass_ForQ5(){
+        Student studentTom = new Student();
+        studentTom.setName("Tom");
+
+        Klass klassForTom = new Klass(2);
+        klassForTom.assignStudentToKlass(studentTom);
+        studentTom.setKlassForStudent(klassForTom);
+
+        List<Student> expectedStudentList = Arrays.asList(studentTom);
+
+        Assert.assertEquals(expectedStudentList, klassForTom.getStudentList());
+        Assert.assertEquals(2, studentTom.getKlassForStudent().getKlassNum());
+    }
 
     @Test
     public void testNumOfClassLeader_givenStudentInThatClass_ForQ6(){

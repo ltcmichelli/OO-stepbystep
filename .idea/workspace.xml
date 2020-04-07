@@ -4,13 +4,11 @@
     <list default="true" id="b4742a56-6591-459c-9f2b-d49e5506aef9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/oocl/Klass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oocl/Klass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/oocl/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oocl/Teacher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/oocl/KlassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/oocl/KlassTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/oocl/TeacherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/oocl/TeacherTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/oocl/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/oocl/StudentTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/oocl/Klass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/oocl/Klass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/oocl/Teacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/oocl/Teacher.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/oocl/KlassTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/oocl/KlassTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/oocl/TeacherTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/oocl/TeacherTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/oocl/StudentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/oocl/StudentTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +47,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="JUnit.KlassTest">
+  <component name="RunManager" selected="JUnit.com.oocl in oo-stepbystep">
     <configuration name="KlassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oo-stepbystep" />
       <extension name="coverage">
@@ -65,7 +63,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KlassTest.testWelcomeMsgOfClassLeader_ForQ9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KlassTest.testAssignStudentToKlass_ForQ5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oo-stepbystep" />
       <extension name="coverage">
         <pattern>
@@ -75,13 +73,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.oocl" />
       <option name="MAIN_CLASS_NAME" value="com.oocl.KlassTest" />
-      <option name="METHOD_NAME" value="testWelcomeMsgOfClassLeader_ForQ9" />
+      <option name="METHOD_NAME" value="testAssignStudentToKlass_ForQ5" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KlassTest.testWelcomeMsgOfNewJoiner_ForQ8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KlassTest.testassignStudentToKlass_ForQ5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oo-stepbystep" />
       <extension name="coverage">
         <pattern>
@@ -91,13 +89,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.oocl" />
       <option name="MAIN_CLASS_NAME" value="com.oocl.KlassTest" />
-      <option name="METHOD_NAME" value="testWelcomeMsgOfNewJoiner_ForQ8" />
+      <option name="METHOD_NAME" value="testassignStudentToKlass_ForQ5" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TeacherTest.testWelcomeMsgOfClassLeader_ForQ9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudentTest.testAssignStudentToKlass_ForQ5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oo-stepbystep" />
       <extension name="coverage">
         <pattern>
@@ -106,14 +104,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.oocl" />
-      <option name="MAIN_CLASS_NAME" value="com.oocl.TeacherTest" />
-      <option name="METHOD_NAME" value="testWelcomeMsgOfClassLeader_ForQ9" />
+      <option name="MAIN_CLASS_NAME" value="com.oocl.StudentTest" />
+      <option name="METHOD_NAME" value="testAssignStudentToKlass_ForQ5" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TeacherTest.testWelcomeMsgOfNewJoiner_ForQ8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="com.oocl in oo-stepbystep" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oo-stepbystep" />
       <extension name="coverage">
         <pattern>
@@ -122,20 +120,18 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.oocl" />
-      <option name="MAIN_CLASS_NAME" value="com.oocl.TeacherTest" />
-      <option name="METHOD_NAME" value="testWelcomeMsgOfNewJoiner_ForQ8" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.com.oocl in oo-stepbystep" />
         <item itemvalue="JUnit.KlassTest" />
-        <item itemvalue="JUnit.KlassTest.testWelcomeMsgOfNewJoiner_ForQ8" />
-        <item itemvalue="JUnit.TeacherTest.testWelcomeMsgOfNewJoiner_ForQ8" />
-        <item itemvalue="JUnit.KlassTest.testWelcomeMsgOfClassLeader_ForQ9" />
-        <item itemvalue="JUnit.TeacherTest.testWelcomeMsgOfClassLeader_ForQ9" />
+        <item itemvalue="JUnit.StudentTest.testAssignStudentToKlass_ForQ5" />
+        <item itemvalue="JUnit.KlassTest.testAssignStudentToKlass_ForQ5" />
+        <item itemvalue="JUnit.KlassTest.testassignStudentToKlass_ForQ5" />
       </list>
     </recent_temporary>
   </component>
@@ -180,22 +176,22 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="203" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1504.963@0.0.1504.963" timestamp="1586244944361" />
-    <state width="1461" height="349" key="GridCell.Tab.0.bottom" timestamp="1586262610575">
+    <state width="1461" height="304" key="GridCell.Tab.0.bottom" timestamp="1586263669611">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="349" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1586262610575" />
-    <state width="1461" height="349" key="GridCell.Tab.0.center" timestamp="1586262610575">
+    <state width="1461" height="304" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1586263669611" />
+    <state width="1461" height="304" key="GridCell.Tab.0.center" timestamp="1586263669611">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="349" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1586262610575" />
-    <state width="1461" height="349" key="GridCell.Tab.0.left" timestamp="1586262610575">
+    <state width="1461" height="304" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1586263669611" />
+    <state width="1461" height="304" key="GridCell.Tab.0.left" timestamp="1586263669611">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="349" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1586262610575" />
-    <state width="1461" height="349" key="GridCell.Tab.0.right" timestamp="1586262610575">
+    <state width="1461" height="304" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1586263669611" />
+    <state width="1461" height="304" key="GridCell.Tab.0.right" timestamp="1586263669611">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="349" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1586262610575" />
+    <state width="1461" height="304" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1586263669611" />
     <state width="1461" height="316" key="GridCell.Tab.1.bottom" timestamp="1586262577968">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
@@ -220,31 +216,5 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="412" y="283" width="672" height="678" key="search.everywhere.popup/0.0.1504.963@0.0.1504.963" timestamp="1586242313968" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/oocl/Klass.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/oocl/Klass.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/oocl/KlassTest.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/oocl/KlassTest.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

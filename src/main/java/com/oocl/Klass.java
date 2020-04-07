@@ -1,7 +1,6 @@
 package com.oocl;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class Klass {
@@ -33,7 +32,9 @@ public class Klass {
 
     public void assignStudentToKlass(Student student){
         studentList.add(student);
-        klassTeacher.setWelcomeMsg(student.getWelcomeMsg());
+        if (klassTeacher != null){
+            klassTeacher.setWelcomeMsg(student.getWelcomeMsg());
+        }
     }
 
     public Student getKlassLeader() {
@@ -47,7 +48,9 @@ public class Klass {
     public void assignKlassLeader(Student klassLeader) {
         if (klassLeader.getKlassForStudent().getKlassNum() == klassNum){
             setKlassLeader(klassLeader);
-            klassTeacher.setWelcomeMsg(klassLeader.getClassLeaderMsg());
+            if (klassTeacher != null){
+                klassTeacher.setWelcomeMsg(klassLeader.getClassLeaderMsg());
+            }
         }
     }
 
