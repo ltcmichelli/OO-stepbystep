@@ -6,7 +6,7 @@ import org.junit.Test;
 public class PersonTest {
 
     @Test
-    public void testIntroduce(){
+    public void testIntroduceForQ1(){
         Person personTom = new Person("Tom", 21);
         String expect = "My name is Tom. I am 21 years old.";
 
