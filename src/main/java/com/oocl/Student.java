@@ -2,6 +2,7 @@ package com.oocl;
 
 public class Student extends Person {
     public Klass klassForStudent;
+    public String welcomeMsg;
 
     public Student() {
         super();
@@ -24,11 +25,23 @@ public class Student extends Person {
         return String.format("My name is %s. I am %d years old. I am a student of class %d. Coding for the glory of OOCL.", this.getName(), this.getAge(), this.getKlassForStudent().getKlassNum());
     }
 
-    public String getWelcomeMsg(){
+    public String getNewJoinerMsg(){
         return String.format(" Welcome %s join Class %d.", this.getName(), this.getKlassForStudent().getKlassNum());
     }
 
     public String getClassLeaderMsg(){
         return String.format(" %s is the leader of Class %d.", this.getName(), this.getKlassForStudent().getKlassNum());
+    }
+
+    public String welcome(String welcomeMsg) {
+        return this.introduceWithClass() + welcomeMsg;
+    }
+
+    public String getWelcomeMsg() {
+        return welcomeMsg;
+    }
+
+    public void setWelcomeMsg(String welcomeMsg) {
+        this.welcomeMsg = welcomeMsg;
     }
 }

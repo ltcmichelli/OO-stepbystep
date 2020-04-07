@@ -31,9 +31,12 @@ public class Klass {
     }
 
     public void assignStudentToKlass(Student student){
+        if (!studentList.isEmpty()){
+            studentList.stream().forEach(studentInClass -> student.setWelcomeMsg(studentInClass.welcome(student.getNewJoinerMsg())));
+        }
         studentList.add(student);
         if (klassTeacher != null){
-            klassTeacher.setWelcomeMsg(student.getWelcomeMsg());
+            klassTeacher.setWelcomeMsg(student.getNewJoinerMsg());
         }
     }
 
